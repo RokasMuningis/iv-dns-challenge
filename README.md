@@ -6,4 +6,4 @@ As IV's endpoint replaces ALL dns records, you've to edit config.yml to include 
 ## Usage (assuming you have certbot)
 1. Create config file `cp config.json.example config.json`
 2. Edit settings
-3. Run `sudo ./certbot-auto certonly --manual --manual-auth-hook /pat/to/file/run.py  --preferred-challenges dns-01 -d *.domain.tld --server https://acme-v02.api.letsencrypt.org/directory`
+3. Run `sudo ./certbot-auto certonly --manual --manual-auth-hook /pat/to/file/authenticator.shs  --preferred-challenges dns-01 -d *.domain.tld --server https://acme-v02.api.letsencrypt.org/directory`
