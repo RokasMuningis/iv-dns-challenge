@@ -5,7 +5,7 @@ import urllib.parse
 import json
 import os
 
-cwd = os.path.abspath(__file__).replace("/run.py", "")
+cwd = os.path.abspath(__file__).replace(__file__, "")
 
 def main():
     with open("%s/%s" % (cwd, "config.json"), 'r') as stream:
