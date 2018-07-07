@@ -1,5 +1,0 @@
-api_url: https://api.iv.lt/json.php
-username: apiuser
-password: password
-domain_id: 00000
-domain_zone: [{"name":"localhost","ttl":"15m","type":"A","value":"127.0.0.1"}
